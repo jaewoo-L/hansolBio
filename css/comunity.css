@@ -1,0 +1,93 @@
+th, td {
+	font-size: 12px;
+	font-weight: normal;
+}
+tr {
+	height: 10px;
+}
+.notice-wrap {
+	width: 1184px;
+    margin: 0 auto;
+    padding: 0;
+}
+.notice-wrap .notice {
+	margin-top: 50px;
+	position: relative;	
+	width: 100%;
+    min-height: 500px;
+    padding: 0;
+}
+.notice-wrap .notice .title {
+	margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    font-size: 16px;
+    text-align: left;
+}
+.notice-wrap .notice .content table {
+	width: 100%;
+    margin: 0 0 20px 0;
+    border: 0;
+    border-top: 1px solid #999999;
+    text-align: center;
+}
+.notice-wrap .notice .content table th {
+	padding: 10px 10px 10px 14px;
+    border-bottom: 1px solid #dbdbdb;
+    background: #fbfbfb;
+}
+.notice-wrap .notice .content table td{
+	padding: 13px 10px 15px 10px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.td-title {
+	text-align: left;
+    vertical-align: middle;
+    position: relative;
+}
+.td-title.hot:after {
+	content: 'HOT';
+    background-color: #f82929;
+    width: 27PX;
+    height: 14px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    line-height: 13px;
+    right: 290px;
+    top: 16px;
+}
+.td-title a {
+	color: #222;
+}
+.pagination {
+	margin: 20px 0 0 0;
+}
+.pagination ul {
+ 	padding: 20px 0 0;
+    text-align: center;
+ }
+.pagination li {
+  	display: inline-block;
+    min-width: 26px;
+    vertical-align: middle;
+  }
+.pagination .on {
+ 	color: #333;
+    font-weight: bold;
+    border: 1px solid #333;
+ }
+ .pagination li.on span {
+ 	display: block;
+    padding: 0 !important;
+    height: 30px;
+    width: 30px;
+    color: #888;
+    font-size: 11px;
+    line-height: 30px;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #fff;
+    background: #7a7d81;
+    border-radius: 20px;
+ }

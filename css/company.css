@@ -1,0 +1,275 @@
+.inner {
+    position: relative;
+    width: 1184px;
+    margin: 0 auto;
+}
+.sub01-section01 {
+	padding: 0px 0px 170px;
+	visibility: hidden;
+    opacity: 0;
+}
+.sub01-section02 {
+	position: relative;
+	height: 600px;
+    background-color: #f7f7f7;
+    visibility: hidden;
+    opacity: 0;
+}
+.sub01-section02 .section02-text {
+	text-align: left;
+    padding-top: 185px;
+}
+.sub01-section02 .section02-image {
+	position: absolute;
+    top: -34px;
+    right: 0px;
+}
+.sub01-section03 {
+	height: 600px;
+    background-color: #efeff1;
+    visibility: hidden;
+    opacity: 0;
+}
+.sub01-section03 .section03-text {
+	text-align: left;
+    padding-top: 185px;
+    visibility: hidden;
+    opacity: 0;
+}
+.sub01-section03.fadeInDown .section03-text {
+	visibility: visible;
+	animation: fadeInRight 1s ease forwards;
+	animation-delay: 0.3s; 
+}
+.sub01-section03 .section03-image {
+	position: absolute;
+    top: 0px;
+    left: -370px;
+}
+.sub01-section04 {
+	height: 600px;
+    background-color: #f7f7f7;
+    visibility: hidden;
+    opacity: 0;
+}
+.sub01-section04 .section04-text {
+	text-align: left;
+    padding-top: 185px;
+}
+.sub01-section04 .section04-image {
+	position: absolute;
+    top: 130px;
+    right: 0px;
+    visibility: hidden;
+    opacity: 0;
+}
+.sub01-section04.fadeInDown .section04-image {
+	visibility: visible;
+	animation: fadeInRight 1s ease forwards;
+	animation-delay: 0.5s; 
+}
+.sub01-section05 {
+	height: 600px;
+    background: fixed url(../img/scroll_bg.jpg);
+    background-size: cover;
+    visibility: hidden;
+    opacity: 0;
+}
+.sub01-section05 .inner-text {
+	color: #fff;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    font-weight: 200;
+    padding-top: 225px;
+}
+.sub01-section06 {
+	height: 785px;
+	visibility: hidden;
+    opacity: 0;
+}
+.sub01-section06 .section06-line {
+	text-align: center;
+    padding: 30px 0px;
+}
+.sub01-section06 .section06-image ul {
+	font-size: 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 1184px;
+    position: relative;
+}
+.sub01-section06 .section06-image ul li {
+ 	display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+ }
+ .sub01-section06 .section06-image ul.active li {
+ 	visibility: visible;
+	animation: fadeInDown 1s ease forwards; 
+ }
+ .sub01-section06 .section06-image ul li:first-child {
+ 	position: absolute;
+    top: 0;
+    left: 75px;
+ }
+ .sub01-section06 .section06-image ul li:nth-child(2) {animation-delay: 0.3s;}
+  .sub01-section06 .section06-image ul li:last-child {
+  	position: absolute;
+    top: 0;
+    right: 70px;
+    animation-delay: 0.6s;
+  }
+ .sub01-section06 .section06-image ul li .text01 {
+ 	padding-top: 10px;
+ }
+ .sub01-section06 .section06-image ul li h4 {
+ 	font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    padding-top: 38px;
+ }
+ .sub01-section06 .section06-image ul li p {
+ 	font-size: 15px;
+    color: #838383;
+    line-height: 24px;
+    padding-top: 18px;
+ }
+
+ /*history page*/
+.sub02-section01 {
+	padding: 0px 0px 120px;
+	opacity: 0;
+	visibility: hidden;
+}
+.sub02-section02 {
+	height: 500px;
+    background: url(../img/sub02_ban01.jpg);
+    background-size: cover;
+    opacity: 0;
+    visibility: hidden;
+}
+.sub02-section02 .inner, .sub02-section04 .inner {
+	position: relative;
+    width: 1184px;
+    margin: 0 auto;
+    padding-top: 170px;
+}
+.sub02-section02 .num-count ,.sub02-section04 .num-count{
+	text-align: center;
+    color: #fff;
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+.sub02-section02 .margin-bar, .sub02-section04 .margin-bar {
+	background-color: #fff;
+}
+.sub02-section02 p, .sub02-section04 p {
+	text-align: center;
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: -0.5px;
+    opacity: 0.7;
+}
+.sub02-section03 , .sub02-section05 {
+	min-height: 750px;
+    margin: 100px 0;
+    overflow: hidden;
+}
+.sub02-section03 .area01, .sub02-section03 .area03 , .sub02-section05 .area01, .sub02-section05 .area03{
+	width: 50%;
+    float: right;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+}
+.sub02-section03 .area01 .inner, .sub02-section03 .area03 .inner, .sub02-section05 .area01 .inner, .sub02-section05 .area03 .inner {
+	padding-left: 80px;
+    border-left: 1px solid #dedede;
+}
+.sub02-section03 h3, .sub02-section05 h3 {
+	color: #000;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+.sub02-section03 .margin-bar, .sub02-section05 .margin-bar {
+	margin: 30px 0;
+}
+.sub02-section03 p, .sub02-section05 p {
+	color: #777;
+    line-height: 30px;
+    font-size: 12px
+}
+.sub02-section03 .area02, .sub02-section05 .area02 {
+	width: 50%;
+    float: left;
+    text-align: right;
+    opacity: 0;
+    visibility: hidden;
+}
+.sub02-section03 .area02 .inner, .sub02-section05 .area02 .inner {
+	padding-right: 80px;
+    border-right: 1px solid #dedede;
+    margin-right: -1px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    width:100%;
+}
+.sub02-section03 .area02 .inner .margin-bar, .sub02-section05 .area02 .inner .margin-bar {
+	float: right;
+}
+.sub02-section04 {
+	height: 500px;
+    background: url(../img/sub02_ban02.jpg);
+    background-size: cover;
+    opacity: 0;
+    visibility: hidden;
+}
+
+/*factory */
+.sub03-section01 {
+	padding: 0px 0px 120px;
+	opacity: 0;
+    visibility: hidden;
+}
+.sub03-section03 {
+	height: 600px;
+    background-color: #efeff1;
+}
+.sub03-section06 {
+	padding-bottom: 100px;
+	opacity: 0;
+    visibility: hidden;
+}
+.sub03-section06 .inner {
+	padding-top: 100px;
+	width: 1184px;
+    margin: 0 auto;
+}
+.sub03-section06 .inner .title {
+	font-size: 40px;
+    font-weight: 200;
+    letter-spacing: -0.5px;
+    text-align: left;
+    background: url(../img/sub03_arrow2.jpg) no-repeat;
+    padding-left: 48px;
+    line-height: 40px;
+    background-position: 0px 3px;
+}
+.sub03-section06 .inner .title h3 {
+	font-weight: 100;
+}
+.sub03-section06 .inner p {
+	font-size: 16px;
+    color: #777;
+    padding-top: 0px;
+    text-align: left;
+    padding-left: 48px;
+    padding-top: 20px;
+}

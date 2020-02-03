@@ -1,0 +1,83 @@
+[
+    {
+        "title": "[르네셀] 매너스 클렌저 100ml(남성용)",
+        "images": "img/01.png",
+        "price": 21,
+        "function": {
+            "detail": "건강한 시크릿 존 케어",
+            "basic": "남성 청결제"
+        }
+    },
+    {
+        "title": "[오가믹스] 프리미엄 아로마 스노이 스킨케어 세트 5종",
+        "images": "img/02.jpg",
+        "price": 203,
+        "function": {
+            "detail": "업그레이드 된 프리미엄 기초케어",
+            "basic": "프리미엄 기초케어"
+        }
+    },
+    {
+        "title": "[르네셀] 앱솔루트 슈프림 선블럭 50ml",
+        "images": "img/03.png",
+        "price": 120,
+        "function": {
+            "detail": "8시간 이상 UVA, UVB 이중 차단",
+            "basic": "SPF 50+ 선블럭"
+        }
+    },
+    {
+        "title": "[셀린저] 멀티 퍼퓸 4종 200ml(다목적 향수)",
+        "images": "img/04.jpg",
+        "price": 22,
+        "function": {
+            "detail": "바디 겸용 멀티 퍼퓸",
+            "basic": "홈쇼핑 진행 멀티 퍼퓸"
+        }
+    },
+    {
+        "title": "[큐좀] 쓰리데이즈 솔루션 스킨 코디네이터 앰플 세트",
+        "images": "img/05.jpg",
+        "price": 12,
+        "function": {
+            "detail": "에스테틱 전문가용 프리미엄 앰플",
+            "basic": "에스테틱 전용"
+        }
+    },
+    {
+        "title": "[셀린저] 라바 핑크 퓨어 메이크업 세트",
+        "images": "img/06.jpg",
+        "price": 2,
+        "function": {
+            "detail": "유해 성분 없는 안전한 화장품",
+            "basic": "아이에게 안전한 메이크업 세트"
+        }
+    },
+    {
+        "title": "[센테카솔] S.O.S 응급 세트 (5종)",
+        "images": "img/07.jpg",
+        "price": 20,
+        "function": {
+            "detail": "여드름과 트러블성 피부를 위한 의약약품",
+            "basic": "150,000원"
+        }
+    },
+    {
+       "title": "[오가믹스] 아로마 스노이 세트 5종",
+        "images": "img/08.jpg",
+        "price": 202,
+        "function": {
+            "detail": "자연주의 아로마 테라피 케어",
+            "basic": "180,000원"
+        }
+    },
+    {
+        "title": "[르네셀] 플라센 엔자임 서브-애씨드 워시 파우더 80g",
+        "images": "img/09.png",
+        "price": 201,
+        "function": {
+            "detail": "맑은 피부의 기본은 깨끗한 클렌징",
+            "basic": "효소 클렌저"
+        }
+    }
+]

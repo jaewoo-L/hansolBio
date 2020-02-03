@@ -1,0 +1,204 @@
+.goods-list-wrap {
+	position: relative;
+}
+.goods-list-wrap .title {
+	position: relative;
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+    text-align: center;
+}
+.goods-list-wrap .title h3 {
+	font-weight: 500;
+    display: inline-block;
+    color: #222;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-family: 'Raleway', 'Noto Sans KR' ,sans-serif;
+}
+.goods-list-wrap .item-category {
+	margin: 20px auto 40px auto;
+	padding: 0;
+    border: 0;
+    text-align: left;
+    width: 1184px;
+}
+.item-category ul {
+ 	display: inline-block;
+    width: 100%;
+    padding: 0;
+    font-size: 0;
+ }
+.item-category li {
+	float: left;
+    width: 18.3%;
+    padding: 0;
+    margin: 12px 1.5% 0 0;
+    font-size: 12px;
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #f5f5f5;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+.item-category li:hover, .item-category li.on {
+	border: 1px solid #222;
+}
+.item-category li a{
+	display: block;
+    padding: 0 0 0 10px;
+    color: #888;
+    text-align: left;
+    height: 38px;
+    line-height: 38px;
+}
+.item-category li:hover a , .item-category li.on a{
+	color: #222;
+}
+
+.goods-list-wrap .goods {
+	width: 1184px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.goods-list-wrap .goods .goods-pick-list .goods-num {
+	display: block;
+    padding: 0 0 10px 0;
+    font-size: 14px;
+    text-align: left;
+}
+.goods-list-wrap .goods .goods-pick-list .sort-list {
+	height: 49px;
+    margin: 0 0 20px 0;
+    padding: 9px 0 10px 0;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #dbdbdb;
+    clear: both;
+}
+.goods-list-wrap .goods .goods-pick-list .sort-list ul {
+	display: inline-block;
+    float: left;
+    padding: 0 0 0 10px;
+}
+.goods-list-wrap .goods .goods-pick-list .sort-list ul li {
+	float: left;
+	font-size: 12px;
+    margin: 0 20px 0 0;
+    padding: 5px 0 0;
+    background: #ffffff;
+    position: relative;
+}
+.goods-list-wrap .goods .goods-pick-list .sort-list ul li a{
+	color: #888;
+}
+
+.goods-list-wrap .goods .goods-pick-list .sort-list ul li:hover {
+	cursor: pointer;
+}
+.goods-list-wrap .goods .goods-pick-list .sort-list ul li.on a{
+	color: #222;
+	font-weight: bold;
+}
+.product {
+	width:1184px;
+	margin: 0 auto;
+	padding-top: 98px;
+}
+.product li {
+	display: inline-block;
+    position: relative;
+    margin: 0 0 40px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 12px;
+}
+.product li .item-content {
+	margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    width: 260px;
+    border: 1px solid #dedede;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+.product li .item-content:hover {
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.product li .item-content .item-img {
+	display: inline-block;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.product li .item-content .item-img img {
+	width:100%;
+}
+.product li .item-content .item-info {
+	display: table-cell;
+	padding: 20px 10px 30px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    background-color: #fff;
+}
+.product li .item-content .item-info a strong {
+	color: #000;
+    margin-bottom: 8px;
+    font-weight: 300;
+    font-size: 18px;
+    display: block;
+    padding: 5px 0 0 0;
+    word-break: break-all;
+}
+.product li .item-content .item-info a p {
+	color: #888;
+    padding: 0;
+    font-weight: 300;
+    font-size: 14px;
+}
+.product li .item-content .item-info .effect strong {
+	color: #000;
+    font-size: 16px;
+}
+.product li .item-content .item-info .effect {
+	padding: 7px 0 5px 0;
+}
+.product .btn-goods-more {
+	height: 60px;
+	width: 100%;
+    border-top: 1px solid #ececec;
+    text-align: center;
+}
+.product .btn-goods-more button {
+	display: inline-block;
+	margin-top: -1px;
+	padding: 6px 28px 6px 20px;
+	font-weight: bold;
+	font-size: 12px;
+	border: 1px solid #dbdbdb;
+	border-top: none;
+	background:url('../img/icon_down_more.png');
+	background-repeat:no-repeat;
+	background-position: center right;
+	background-color: #fff;
+	font-family: "Noto Sans KR",Malgun Gothic,"맑은 고딕",AppleGothic,Dotum,"돋움",sans-serif;
+}
+.product .btn-goods-more button:focus {
+	outline: none;
+}
+.product .product-items {
+	float: left;
+	width:25%;
+	height: 437px;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}

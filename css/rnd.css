@@ -1,0 +1,33 @@
+.sub06-section01 {
+	padding: 0px 0px 170px;
+	opacity: 0;
+	visibility: hidden;
+}
+.sub06-section02 {
+	padding-bottom: 100px;
+	opacity: 0;
+	visibility: hidden;
+}
+.sub06-section02 .inner {
+    padding-top: 100px;
+    width: 1184px;
+    margin: 0 auto;
+}
+.sub06-section02 .inner h3 {
+	font-size: 40px;
+    font-weight: 200;
+    letter-spacing: -0.5px;
+    text-align: left;
+    background: url(../img/sub03_arrow2.jpg) no-repeat;
+    padding-left: 48px;
+    line-height: 40px;
+    background-position: 0px 3px;
+}
+.sub06-section02 .inner p {
+	font-size: 16px;
+    line-height: 27px;
+    letter-spacing: -0.3px;
+    color: #777;
+    text-align: left;
+    padding-top: 25px;
+}

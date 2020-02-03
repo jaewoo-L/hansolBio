@@ -1,0 +1,80 @@
+.login-wrap {
+	width: 593px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.login-wrap .content {
+	padding: 70px 60px;
+    border: 1px solid #dbdbdb;
+}
+.login-wrap .title {
+	text-align: left;
+	padding-bottom: 20px;
+}
+.login-box h3 {
+	font-weight: normal;
+    font-size: 18px;
+    color: #222222;
+    text-align: left;
+}
+.login-input {
+	overflow: hidden;
+}
+.login-input input {
+	display: block;
+    width: 292px;
+    height: 36px;
+    margin: 15px 0 10px 0;
+    padding: 0 0 0 8px;
+    border: 1px solid #d0d0d0;
+    color: #979d9d;
+}
+.login-input input::placeholder {
+	font-size: 12px;
+	vertical-align: center;
+}
+.login-input button {
+	border: 1px solid #333;
+    background: #333;
+    color: #ffffff;
+    float: right;
+    width: 158px;
+    height: 91px;
+    margin: 15px 0 0 0;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 153px;
+    right: 65px;
+}
+.id-check {
+	text-align: left;
+}
+.id-check label {
+	color: #333;
+}
+.btn-login-box {
+	overflow: hidden;
+    margin: 20px 0 0 0;
+    padding: 20px 0 0 0;
+    border-top: 1px solid #dcdcdc;
+}
+.btn-login-box ul li{
+	display: inline-block;
+}
+.btn-login-box .login-btn {
+	width: 150px;
+    height: 45px;
+    margin: 0;
+    color: #ffffff;
+    font-size: 14px;
+    border: 1px solid #666666;
+    background: #666666;
+    cursor: pointer;
+    font-weight: bold;
+}
