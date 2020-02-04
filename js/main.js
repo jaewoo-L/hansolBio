@@ -36,7 +36,9 @@ $(function() {
 		sectionFourExcuted = false,
 		sectionFiveExcuted = false,
 		sectionSixExcuted = false;
-	
+		$(window).load(function(){
+			$('.loading').fadeOut();
+		});
 	function mainSlide() {
 		mainCurrentSlideIndex = this.currentSlide;
 		$('.btn-nav').eq(mainCurrentSlideIndex).addClass('active').siblings().removeClass('active');
